@@ -1,0 +1,114 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Navbar{
+    background-color: #383848;
+    height: 40px;
+
+}
+nav div h1 a{
+
+    color:white;
+    text-decoration:none;
+
+}
+
+
+nav div h1 a:visited{
+    color:white;
+    text-decoration:none;
+
+}
+
+nav ul li a{
+    color:white;
+    float: left;
+    margin-right: 10px;
+    list-style: none;
+    text-decoration:none;
+}
+nav ul li a:hover{
+    color:#e4b95b;
+}
+nav ul li a:visited{
+
+    text-decoration:none;
+}
+
+#navdivleft{
+    margin-top: 10px;
+    float:left;
+    width: 70%;
+
+    
+}
+#navdivright{
+    float:left;
+    width: 20%;
+    margin-top: 10px;
+    
+
+}
+
+
+#footer div{
+    margin: 30px;
+    float: left;
+
+}
+#footer div p{
+    margin-bottom: 10px;
+
+    font-weight: bolder;
+    color:#e4b95b;
+
+}
+#footer div li a:visited {
+    color:rgb(34, 31, 31);
+  }
+
+#footer div li a{
+    color:rgb(34, 31, 31);
+    text-decoration: none;
+  }
+#footer div li {
+    color:rgb(34, 31, 31);
+    line-height: 30px;
+  }
+#footer{
+    margin-top: 250px;
+}
+
+
+img {
+    border-radius: 5px 5px 0 0;
+    width: 250px;
+    height: 200px;
+  }
+
+h1 {
+    font-family: 'Oleo Script Swash Caps', cursive;
+    color:#e4b95b;
+    text-align: center;
+}
+
+.maincontainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 200px;
+    padding-left: 180px;
+    padding-top: 40px;
+    }
+.card{
+    box-shadow: 2px 4px 8px 4px rgba(240, 225, 6, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+main h1 {
+    padding-top: 30px;
+    font-size: 50px;
+}
+table, th, td {
+    border: 1px solid #e4b95b;
+  }
